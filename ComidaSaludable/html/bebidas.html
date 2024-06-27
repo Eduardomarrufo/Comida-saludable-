@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/productos.css">
+</head>
+
+<body>
+    <div class="espacio-navbar">
+        <header class="header">
+            <div class="menu container">
+                <a href="#" class="logo"><img src="../imagenes/logo1.png" alt="Logo de la tienda"></a>
+                <input type="checkbox" id="menu">
+                <label for="menu"><img src="../imagenes/menu.png" class="menu-icono" alt="Ícono de menú"></label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="../html/index.html">Inicio</a></li>
+                        <li><a href="../html/comidas.html">Comidas</a></li>
+                        <li><a href="../html/postres.html">Postres</a></li>
+                        <li><a href="../php/cerrar.php">Cerar sesion</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <ul>
+                        <li class="submenu">
+                            <img src="../imagenes/car.svg" id="img-carrito" alt="Imagen de carrito">
+                            <div id="carrito">
+                                <table id="lista-carrito">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <br><hr>
+
+    <div class="container-info">
+        <div class="products-container-info">
+            <section class="promos container" id="lista-1">
+                <h2>Menú de bebidas</h2>
+                <div class="categories">
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Smoothie de Frutas</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$100</p>
+                                </div>
+                                <div class="product" data-name="p-1">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar a carrito</a>
+                        </div> 
+                        <div class="categorie-img">
+                            <img src="../imagenes/B1.png" alt="">
+                        </div>
+                    </div>                 
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Jugo Verde</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$80</p>
+                                </div>
+                                <div class="product" data-name="p-2">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/B2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Agua Infusionada</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$60</p>
+                                </div>
+                                <div class="product" data-name="p-3">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/B3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Té helado de Hierbas</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$90</p>
+                                </div>
+                                <div class="product" data-name="p-4">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/B4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Agua de Coco</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$100</p>
+                                </div>
+                                <div class="product" data-name="p-5">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/B5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Limonada</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$90</p>
+                                </div>
+                                <div class="product" data-name="p-6">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/B6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="products-preview">
+        <div class="preview" data-target="p-1">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/B1.png" alt="">
+            <h3>Smoothie de Frutas</h3>
+            <p> Lleno de vitaminas y antioxidantes, este batido proporciona energía natural, 
+                mejora la digestión y fortalece el sistema inmunológico.</p>
+            <h2>Ingredientes</h2>
+            <p>Fresas, Plátano, Mango, Yogur natural, Miel</p>
+        </div>
+        <div class="preview" data-target="p-2">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/B2.png" alt="">
+            <h3>Jugo Verde</h3>
+            <p>Rico en nutrientes esenciales, desintoxica, mejora la digestión, refuerza el sistema 
+                inmunológico, aumenta la energía, mejora la piel y ayuda a controlar el peso.</p>
+            <h2>Ingredientes</h2>
+            <p>Espinacas, Pepino, Apio, Manzana verde, Limón, Jengibre</p>
+        </div>
+        <div class="preview" data-target="p-3">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/B3.png" alt="">
+            <h3>Agua Infusionada</h3>
+            <p> Hidratante y refrescante, esta bebida aporta vitaminas y antioxidantes de las frutas y 
+                hierbas, promoviendo la desintoxicación y la hidratación.</p>
+            <h2>Ingredientes</h2>
+            <p>Limón, Pepino, Menta fresca</p>
+        </div>
+        <div class="preview" data-target="p-4">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/B4.png" alt="">
+            <h3>Té helado de Hierbas</h3>
+            <p>Sin cafeína y rico en antioxidantes, este té mejora la digestión, 
+                reduce el estrés y fortalece el sistema inmunológico.</p>
+            <h2>Ingredientes</h2>
+            <p>Menta ,Manzanilla ,Lavanda ,Limón ,Miel (opcional)</p>
+        </div>
+        <div class="preview" data-target="p-5">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/B5.png" alt="">
+            <h3>Agua de Coco</h3>
+            <p>Hidratante y rica en electrolitos, esta bebida natural repone minerales esenciales, 
+                apoya la función muscular y mejora la hidratación.</p>
+            <h2>Ingredientes</h2>
+            <p>Agua de coco</p>
+        </div>
+        <div class="preview" data-target="p-6">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/B6.png" alt="">
+            <h3>Limonada</h3>
+            <p>Refrescante y rica en vitamina C, la limonada fortalece el sistema inmunológico, 
+                mejora la digestión y proporciona una hidratación deliciosa.</h2>
+            <p>Limones, Agua, Azúcar (opcional), Hojas de menta</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer class="footer container">
+        <div class="links">
+            <div class="link1">
+                <p>&copy; 2024 Tienda Saludable. Todos los derechos reservados.</p>
+            </div>
+            <div class="link2">
+                <p><a href="../php/contactanos.php">Contactanos</a></p>
+            </div>
+        </div>
+    </footer>    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="../js/productos.js"></script>
+</body>
+</html>

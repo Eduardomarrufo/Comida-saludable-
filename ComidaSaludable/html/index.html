@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="espacio-navbar">
+        <header class="header">
+            <div class="menu container">
+                <a href="#" class="logo"><img src="../imagenes/logo1.png" alt="Logo de la tienda"></a>
+                <input type="checkbox" id="menu">
+                <label for="menu"><img src="../imagenes/menu.png" class="menu-icono" alt="Ícono de menú"></label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="../php/cerrar.php">Cerar sesion</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <ul>
+                        <li class="submenu">
+                            <img src="../imagenes/car.svg" id="img-carrito" alt="Imagen de carrito">
+                            <div id="carrito">
+                                <table id="lista-carrito">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <hr>
+
+    
+
+    <section class="contenido-previo">
+        <div class="container-previo">
+            <h2>Bienvenido a Comida Saludable</h2>
+            <p>Explora nuestra tienda y descubre opciones frescas, nutritivas y deliciosas que promueven 
+                una dieta equilibrada y una mejor salud. Cada producto es seleccionado cuidadosamente para
+                 garantizar una experiencia única y de calidad.</p>
+        </div>
+    </section>
+
+    <br><hr>
+
+    <div class="cate-carrusel">
+        <h2>Explora nuestras categorias</h2>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="../html/comidas.html">
+                            <div class="header-info">
+                                <div class="header-txt">
+                                    <h1>Comidas Saludables</h1>
+                                </div>
+                                <div class="header-img">
+                                    <img src="../imagenes/1C.png" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="../html/bebidas.html">
+                            <div class="header-info">
+                                <div class="header-txt">
+                                    <h1>Bebidas Saludables</h1>
+                                </div>
+                                <div class="header-img">
+                                    <img src="../imagenes/1B.png" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="../html/postres.html">
+                            <div class="header-info">
+                                <div class="header-txt">
+                                    <h1>Postres Saludables</h1>
+                                </div>
+                                <div class="header-img">
+                                    <img src="../imagenes/1P.png" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </header>
+
+    <hr>
+
+    <footer class="footer container">
+        <div class="links">
+            <div class="link1">
+                <p>&copy; 2024 Tienda Saludable. Todos los derechos reservados.</p>
+            </div>
+            <div class="link2">
+                <p><a href="../php/contactanos.php">Contactanos</a></p>
+            </div>
+        </div>
+    </footer>    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

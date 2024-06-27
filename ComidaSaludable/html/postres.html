@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postres</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/productos.css">
+</head>
+
+<body>
+    <div class="espacio-navbar">
+        <header class="header">
+            <div class="menu container">
+                <a href="#" class="logo"><img src="../imagenes/logo1.png" alt="Logo de la tienda"></a>
+                <input type="checkbox" id="menu">
+                <label for="menu"><img src="../imagenes/menu.png" class="menu-icono" alt="Ícono de menú"></label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="../html/index.html">Inicio</a></li>
+                        <li><a href="../html/comidas.html">Comidas</a></li>
+                        <li><a href="../html/bebidas.html">Bebidas</a></li>
+                        <li><a href="../php/cerrar.php">Cerar sesion</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <ul>
+                        <li class="submenu">
+                            <img src="../imagenes/car.svg" id="img-carrito" alt="Imagen de carrito">
+                            <div id="carrito">
+                                <table id="lista-carrito">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <br><hr>
+
+    <div class="container-info">
+        <div class="products-container-info">
+            <section class="promos container" id="lista-1">
+                <h2>Menú de postres</h2>
+                <div class="categories">
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Yogur con Frutas</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$100</p>
+                                </div>
+                                <div class="product" data-name="p-1">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar a carrito</a>
+                        </div> 
+                        <div class="categorie-img">
+                            <img src="../imagenes/P1.png" alt="">
+                        </div>
+                    </div>                 
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Batido Proteico</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$128</p>
+                                </div>
+                                <div class="product" data-name="p-2">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/P2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Brownie de Chocolate</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$60</p>
+                                </div>
+                                <div class="product" data-name="p-3">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/P3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Tarta de Frutas</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$90</p>
+                                </div>
+                                <div class="product" data-name="p-4">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/P4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Helado de Frutas</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$100</p>
+                                </div>
+                                <div class="product" data-name="p-5">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/P5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Mousse de Chocolate</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$90</p>
+                                </div>
+                                <div class="product" data-name="p-6">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/P6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="products-preview">
+        <div class="preview" data-target="p-1">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/P1.png" alt="">
+            <h3>Yogur con Frutas</h3>
+            <p>Rico en probióticos y calcio, este postre mejora la salud digestiva, 
+                fortalece los huesos y proporciona vitaminas y antioxidantes de las frutas.</p>
+            <h2>Ingredientes</h2>
+            <p>Yogur griego natural, Fresas, Arándanos, Plátano, Miel</p>
+        </div>
+        <div class="preview" data-target="p-2">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/P2.png" alt="">
+            <h3>Batido Proteico</h3>
+            <p>Alto en proteínas y bajo en azúcar, este batido apoya el crecimiento muscular, 
+                la recuperación post-entrenamiento y proporciona energía sostenida.</p>
+            <h2>Ingredientes</h2>
+            <p>Proteína en polvo (sabor a vainilla), Plátano, Mantequilla de almendra, Leche de almendra</p>
+        </div>
+        <div class="preview" data-target="p-3">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/P3.png" alt="">
+            <h3>Brownie de Chocolate</h3>
+            <p>Aunque es indulgente, un brownie hecho con ingredientes de calidad puede ofrecer antioxidantes del cacao, 
+                promoviendo la salud cardiovascular y el bienestar.</p>
+            <h2>Ingredientes</h2>
+            <p>Harina de almendras, Cacao en polvo, Aceite de coco, Avellanas, Miel</p>
+        </div>
+        <div class="preview" data-target="p-4">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/P4.png" alt="">
+            <h3>Tarta de Frutas</h3>
+            <p>Llena de vitaminas y antioxidantes, esta tarta es una opción refrescante que apoya la salud del sistema 
+                inmunológico y proporciona energía natural.</p>
+            <h2>Ingredientes</h2>
+            <p>Galletas integrales trituradas, Queso crema bajo en grasa, Frutas variadas, Gelatina sin azúcar (opcional)</p>
+        </div>
+        <div class="preview" data-target="p-5">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/P5.png" alt="">
+            <h3>Helado de Frutas</h3>
+            <p>Una opción refrescante y baja en calorías, el helado de frutas proporciona vitaminas, minerales y 
+                antioxidantes, manteniéndote hidratado y satisfecho.</p>
+            <h2>Ingredientes</h2>
+            <p>Plátanos congelados, Frutas variadas, Leche de almendra, Miel (opcional)</p>
+        </div>
+        <div class="preview" data-target="p-6">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/P6.png" alt="">
+            <h3>Mousse de Chocolate</h3>
+            <p>Rico en antioxidantes y magnesio, el mousse de chocolate puede mejorar el estado de ánimo, apoyar la salud del corazón y 
+                proporcionar un placer indulgente con beneficios nutricionales.</p>
+            <h2>Ingredientes</h2>
+            <p>Aguacate maduro, Cacao en polvo, Miel o jarabe de arce (opcional), Extracto de vainilla, Leche de almendra</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer class="footer container">
+        <div class="links">
+            <div class="link1">
+                <p>&copy; 2024 Tienda Saludable. Todos los derechos reservados.</p>
+            </div>
+            <div class="link2">
+                <p><a href="../php/contactanos.php">Contactanos</a></p>
+            </div>
+        </div>
+    </footer>    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="../js/productos.js"></script>
+</body>
+</html>

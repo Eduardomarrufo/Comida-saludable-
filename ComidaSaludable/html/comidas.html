@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/productos.css">
+</head>
+
+<body>
+    <div class="espacio-navbar">
+        <header class="header">
+            <div class="menu container">
+                <a href="#" class="logo"><img src="../imagenes/logo1.png" alt="Logo de la tienda"></a>
+                <input type="checkbox" id="menu">
+                <label for="menu"><img src="../imagenes/menu.png" class="menu-icono" alt="Ícono de menú"></label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="../html/index.html">Inicio</a></li>
+                        <li><a href="../html/bebidas.html">Bebidas</a></li>
+                        <li><a href="../html/postres.html">Postres</a></li>
+                        <li><a href="../php/cerrar.php">Cerar sesion</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <ul>
+                        <li class="submenu">
+                            <img src="../imagenes/car.svg" id="img-carrito" alt="Imagen de carrito">
+                            <div id="carrito">
+                                <table id="lista-carrito">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <br><hr>
+
+    <div class="container-info">
+        <div class="products-container-info">
+            <section class="promos container" id="lista-1">
+                <h2>Menú de comidas</h2>
+                <div class="categories">
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Ensalada Mediterránea</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$220</p>
+                                </div>
+                                <div class="product" data-name="p-1">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar a carrito</a>
+                        </div> 
+                        <div class="categorie-img">
+                            <img src="../imagenes/C1.png" alt="Imagen de ensalada mediterranea">
+                        </div>
+                    </div>                 
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Salmón a <br>la Parrilla</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$270</p>
+                                </div>
+                                <div class="product" data-name="p-2">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/C2.png" alt="Imagen de Salmón a la Parrilla">
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Pollo a la Parrilla</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$149</p>
+                                </div>
+                                <div class="product" data-name="p-3">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/C3.png" alt="Imagen de Pollo a la Parrilla">
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Ensalada de Quinoa</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$237</p>
+                                </div>
+                                <div class="product" data-name="p-4">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/C4.png" alt="Imagen de Ensalada de Quinoas">
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Tazón de Hummus y Verduras</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$290</p>
+                                </div>
+                                <div class="product" data-name="p-5">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/C5.png" alt="Imagen de Tazón de Hummus y Verduras">
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <div class="categorie-1">
+                            <h3>Frittata Mediterránea</h3>
+                            <div class="prices-info">
+                                <div class="precio-info">
+                                    <p class="precio">$240</p>
+                                </div>
+                                <div class="product" data-name="p-6">
+                                    <i class="fas fa-info-circle info-icon"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar a carrito</a>
+                        </div>
+                        <div class="categorie-img">
+                            <img src="../imagenes/C6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="products-preview">
+        <div class="preview" data-target="p-1">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/C1.png" alt="Imagen de Ensalada Mediterránea">
+            <h3>Ensalada Mediterránea</h3>
+            <p>Rica en antioxidantes y fibra, esta ensalada proporciona vitaminas A, C y K, además de grasas saludables del aceite de oliva y aceitunas, 
+                promoviendo la salud cardíaca y digestiva.</p>
+            <h2>Ingredientes</h2>
+            <p>Lechuga mixta ,Tomates cherry ,Pepino, Aceitunas negras, Queso feta, Cebolla roja, Aceite de oliva, Jugo de limón, Sal y pimienta</p>
+        </div>
+        <div class="preview" data-target="p-2">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/C2.png" alt="Imagen de Salmón a la Parrilla">
+            <h3>Salmón a la Parrilla</h3>
+            <p>Alto en proteínas y omega-3, este plato fortalece el sistema cardiovascular, 
+                mejora la salud cerebral y reduce la inflamación.</p>
+            <h2>Ingredientes</h2>
+            <p>Filete de salmón, Quinoa, Espárragos, Limón, Aceite de oliva, Ajo, Sal y pimienta</p>
+        </div>
+        <div class="preview" data-target="p-3">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/C3.png" alt="Imagen de Pollo a la Parrilla">
+            <h3>Pollo a la Parrilla</h3>
+            <p>Fuente magra de proteínas, el pollo a la parrilla es bajo en grasas y proporciona aminoácidos esenciales 
+                para la reparación y crecimiento muscular.</p>
+            <h2>Ingredientes</h2>
+            <p>Pechuga de pollo, Calabacín, Pimientos, Berenjena, Aceite de oliva, Hierbas frescas, Sal y pimienta</p>
+        </div>
+        <div class="preview" data-target="p-4">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/C4.png" alt="Imagen de Ensalada de Quinoa">
+            <h3>Ensalada de Quinoa</h3>
+            <p>Alta en proteínas completas y fibra, la quinoa aporta minerales como magnesio y hierro, 
+                mejorando la salud digestiva y el metabolismo.</p>
+            <h2>Ingredientes</h2>
+            <p>Quinoa, Pimientos, Tomate, Pepino, Cebolla roja, Perejil, Jugo de limón, Aceite de oliva, Sal y pimienta</p>
+        </div>
+        <div class="preview" data-target="p-5">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/C5.png" alt="Imagen de Tazón de Hummus y Verduras">
+            <h3>Tazón de Hummus y Verduras</h3>
+            <p>Este platillo es rico en proteínas vegetales y fibra, con vitaminas y minerales de las verduras frescas, 
+                promoviendo la saciedad y la salud digestiva.</p>
+            <h2>Ingredientes</h2>
+            <p>Hummus, Zanahorias, Pimientos, Pepino, Tomate cherry, Aceite de oliva, Hierbas frescas, Sal y pimienta</p>
+        </div>
+        <div class="preview" data-target="p-6">
+            <i class="fas fa-times"></i>
+            <img src="../imagenes/C6.png" alt="">
+            <h3>Frittata Mediterránea</h3>
+            <p>Con huevos, espinacas y queso feta, esta frittata es rica en proteínas, hierro y calcio, apoyando la salud ósea y muscular.</p>
+            <h2>Ingredientes</h2>
+            <p>Huevos, Tomates cherry, Espinacas frescas, Pimientos rojos y verdes, Cebolla roja, Queso feta desmenuzado, Albahaca fresca picada, Aceite de oliva virgen extra, Sal y pimienta al gusto</p>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <footer class="footer container">
+        <div class="links">
+            <div class="link1">
+                <p>&copy; 2024 Tienda Saludable. Todos los derechos reservados.</p>
+            </div>
+            <div class="link2">
+                <p><a href="../php/contactanos.php">Contactanos</a></p>
+            </div>
+        </div>
+    </footer>    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="../js/productos.js"></script>
+</body>
+</html>
